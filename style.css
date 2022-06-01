@@ -1,0 +1,35 @@
+h1{
+  color:red;
+  text-align : center;
+  font-size: 50px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+   }
+div {
+  border: 5px solid gray ;
+    }
+  #grid{
+         border: 5px solid pink ;
+         display:grid;
+         grid-template-columns: 1fr 5fr;
+         }
+   h2{
+       padding-top:30px;
+       }
+  @media(max-width:800px){
+    #grid{
+      border:none ;
+             display:block;
+     }
+     div {
+       border: none;
+         }
+  #na{
+    border:2px solid orange;
+  }
+            }
+            @media(min-width:800px){
+            #na{
+              border:none;
+            }
+                      }
